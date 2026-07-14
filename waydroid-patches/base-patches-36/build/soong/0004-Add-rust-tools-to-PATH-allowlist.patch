@@ -1,3 +1,7 @@
+From: Matej Dvoracek matejdvoracek@fastmail.com
+Date: Tue, 14 Jul 2026 00:00:00 +0000
+Subject: [PATCH 4/5] Add rust tools to PATH allowlist
+
 --- a/ui/build/paths/config.go
 +++ b/ui/build/paths/config.go
 @@ -87,6 +87,8 @@ func GetConfig(name string) PathConfig {

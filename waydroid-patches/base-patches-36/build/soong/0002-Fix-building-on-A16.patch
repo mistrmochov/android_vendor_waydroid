@@ -1,3 +1,7 @@
+From: Matej Dvoracek matejdvoracek@fastmail.com
+Date: Tue, 14 Jul 2026 00:00:00 +0000
+Subject: [PATCH 2/5] Fix building on A16
+
 --- a/filesystem/filesystem.go
 +++ b/filesystem/filesystem.go
 @@ -1268,7 +1268,7 @@ func (f *filesystem) verifyGenericConfig
